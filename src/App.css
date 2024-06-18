@@ -50,3 +50,14 @@ border-radius:25px;
     width:100%;
     background-color: #f0eeee;
   }
+ .container{
+  width:1140px;
+  margin:auto;
+  display:flex;
+  justify-content: center;
+ }
+ .footer-content {
+  width:190px;
+  margin:auto;
+  padding:7px;
+ }
