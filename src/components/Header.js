@@ -1,5 +1,5 @@
 import Logo from"../assets/images/resturant-removebg-preview.png"
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return(
@@ -14,24 +14,25 @@ const Header = () => {
       <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link to="/" className="nav-link" >
              Home🏠
-            </a>
+            </Link>
+            {/* <link to=""/> */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link  to="/about" className="nav-link">
               AboutUs☺
-              </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link to="/contact" className="nav-link" >
               ContactUs📞
-              </a>
+              </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link  to="/cart" className="nav-link" >
               Cart🛒
-              </a>
+              </Link>
           </li>    
         </ul>
       </div>

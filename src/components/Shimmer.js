@@ -1,7 +1,7 @@
 const Shimmer=()=>{
 return new Array(20).fill(0).map(()=>(
     
-<div className=" custom-card">
+<div className=" custom-card" >
       <div className="mb-3">
         {/* <img src={IMG_URL+cloudinaryImageId}/> */}
         <div className="shimmerImg"></div>
