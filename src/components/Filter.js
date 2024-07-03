@@ -1,6 +1,6 @@
 const Filter = () =>{
     return(
-      <div className="text-center">This is Searchbar component</div>
+      <div className="text-center"></div>
     );
   };
   export default Filter;
